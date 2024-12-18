@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking</title>
+  <style>
+    /* General styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: azure;
+      overflow-x: hidden;
+    }
+
+    /* Header styles */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #08377e;
+      color: white;
+      padding: 15px 50px;
+    }
+
+    .header .div1-head, .header .div2-head {
+      display: flex;
+      align-items: center;
+    }
+
+    .i-header {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+
+    .head-header {
+      font-size: 24px;
+    }
+
+    /* Navigation menu */
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      font-size: 16px;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      background-color: #007bff;
+      transition: background-color 0.3s;
+    }
+
+    .nav-links a:hover {
+      background-color: #0056b3;
+    }
+
+    /* Section 2 styles */
+    .section2 {
+      position: relative;
+      padding: 50px 20px;
+      background-color: #f4f4f4;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .head-sec1 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .cont-activ {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .activs {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .img-offer {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .capt {
+      display: block;
+      font-size: 16px;
+      color: #777;
+      margin: 10px 0;
+    }
+
+    .place {
+      font-size: 20px;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .i-activ {
+      color: gold;
+      font-size: 18px;
+    }
+
+    .p-rate {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .p-price {
+      font-size: 16px;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-transform: uppercase;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero-section">
+    <!-- Header -->
+    <div class="header">
+      <div class="div1-head">
+        <i class="fas fa-plane i-header"></i>
+        <h2 class="head-header">Booking</h2>
+      </div>
+      <div class="nav-links">
+        <a href="AliarPlanSearch.html" target="_blank">Flight</a>
+        <a href="TouristAttractionsSearch.html" target="">Tourist Attractions</a>
+        <a href="HotalSearch.html" target="_blank">Hotel</a>
+  
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section2">
+      <div class="overlay">
+        <h2 class="head-sec1">These offers are for special customers</h2>
+        <div class="cont-activ">
+          <div class="offer1 activs">
+            <img class="img-offer" src="plane.png" alt="">
+            <span class="capt">Cairo, Egypt</span>
+            <h3 class="place">Travel with us at the lowest prices at Cairo International Airport with Cairo Airlines</h3>
+            <i class="fas fa-star i-activ"></i>
+            <p class="p-rate">5.0</p>
+            <p class="p-price">Price:<del>$130</del> $100</p>
+            <button class="btn"><a href="pay.html">Choose</a></button>
+          </div>
+          <div class="offer2 activs">
+            <img class="img-offer" src="pyramids.jpg" alt="">
+            <span class="capt">Giza, Egypt</span>
+            <h3 class="place">An exciting trip to explore the Giza Pyramids and the Sphinx with a special discount with us</h3>
+            <i class="fas fa-star i-activ"></i>
+            <p class="p-rate">4.2</p>
+            <p class="p-price">Price: <del>$50</del> 30$</p>
+            <button class="btn"><a href="pay.html">Choose</a></button>
+          </div>
+          <div class="offer3 activs">
+            <img class="img-offer" src="alex.jpg" alt="">
+            <span class="capt">Alexandria, Egypt</span>
+            <h3 class="place">Explore the landmarks in the Bride of the Mediterranean, Alexandria, including the Library of Alexandria, the Citadel of Saladin, and Mall of Arabia exclusively.</h3>
+            <i class="fas fa-star i-activ"></i>
+            <p class="p-rate">5</p>
+            <p class="p-price">Price:<del>$70</del> $30</p>
+            <button class="btn"><a href="pay.html">Choose</a></button>
+          </div>
+          <div class="offer4 activs">
+            <img class="img-offer" src="hollywood.jpg" alt="">
+            <span class="capt">Sharm El-Sheikh, Egypt</span>
+            <h3 class="place">Luxury hotels on the seafront in Sharm El Sheikh in the most luxurious places with exceptional services with our company</h3>
+            <i class="fas fa-star i-activ"></i>
+            <p class="p-rate">4.0</p>
+            <p class="p-price">Price:<del>$200</del> 150$</p>
+            <button class="btn"><a href="pay.html">Choose</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

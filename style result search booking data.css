@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    height: 175vh;
+    width: 100%;
+    background-image: url(../images/back-rooms.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    top: 0;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(5, 26, 141,.6);
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+}
+.i-header{
+    color: white;
+    font-size: 190%;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.head-header{
+    color: white;
+    margin-left: 70px;
+    font-size: 210%;
+    margin-top: -30px;
+    text-transform: capitalize;
+}
+.div2-head{
+    float: right;
+    margin-top: -55;
+    margin-right: 30px;
+}
+.head-sec1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    word-spacing: 3px;
+}
+.overlay{
+    width: 100%;
+    height: 175vh;
+    position: absolute;
+    background-color: rgba(119, 183, 236, 0.5);
+}
+.cont{
+    margin: auto;
+    width: 90%;
+    height: 74vh;
+    overflow: auto;
+}
+.offers{
+    width: 22%;
+    height: 65vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    float: left;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.offers:hover{
+    border: 2px solid black;
+}
+.offer4,.offer2,.offer3{
+ margin-left: 4%;
+}
+.img-offer{
+    width: 272px;
+    height: 270px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.capt{
+    margin-left: 100px;
+    font-size: 110%;
+}
+.prices{
+    width: 90%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 40PX;
+}
+.fa-star{
+    color: orange;
+    font-size: 140%;
+    margin-top: 10px;
+}
+.star1{
+    margin-left: 150px;
+}
+.head-price{
+    font-size: 160%;
+    margin-top: -28px;
+    margin-left: 10px;
+}
+.place{
+    font-size: 140%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.s-or-d{
+    font-size: 110%;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 120%;
+    color:rgba(5, 26, 141);
+    background-color:white; 
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 2px solid rgba(5, 26, 141);
+    border-top: none;
+    border-left: none;
+}
+.btn:hover{
+    opacity: 0.8;
+    background-color:rgba(5, 26, 141); 
+    color: white;
+}
+.section2{
+    height: 175vh;
+    width: 100%;
+    background-image: url(../images/alazhr\ park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.head-activities{
+    margin-left: 50px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 190%;
+}
+.cont-activ{
+    height: 74vh;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.activs{
+    width: 22%;
+    height: 65vh;
+    float: left;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.activs:hover{
+    border: 2px solid black;
+}
+.p-rate{
+    margin-left: 50px;
+    margin-top: -25px;
+    font-size: 150%;
+}
+.i-activ{
+    margin-left: 20px;
+}
+.p-price{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 120%;
+    font-weight: bolder;
+}
+.capt4{
+    font-size: 110%;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.section3{
+    height: 175vh;
+    width: 100%;
+    background-image: url(../images/back-airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}

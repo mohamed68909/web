@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/egy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent-section1{
+    position: relative;
+    overflow: auto;
+}
+.section1-overlay{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.section1-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: rgba(244, 242, 242,0);
+    text-align: center;
+}
+.section1-title{
+    font-size: 300%;
+    color: white;
+}
+.section1-p{
+    color: white;
+    font-size: 110%;
+    text-align: center;
+    margin-top: 10px;
+}
+.section1-btn{
+    font-size: larger;
+    width: 140px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.btn-learn{
+    color: white;
+    background-color: blue;
+}
+.header-ul li{
+    float:right;
+    display: inline-block;
+    margin: 15px 10px 15px 15px;
+    font-size: 130%;
+    margin-top: -25px;
+    font-weight: bold;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    margin-right: 70px;
+}
+.head-header{
+    font-size: 170%;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: white;
+}
+.section1-btn:hover{
+    opacity: .5;
+}
+.content-section {
+    height: 80vh;
+    padding: 40px;
+    background-color: #002b36;
+    color: white;
+    text-align: center;
+  }
+  
+  .content-section h2 {
+    margin-bottom: 20px;
+  }
+  .p-content {
+    font-size: 145%;
+    line-height: 1.8;
+  }
+  
+  .image-slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .image-slider img {
+    width: 230px;
+    height: 230px;
+    margin: 0 10px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-slider img:hover {
+    transform: scale(1.1);
+  }
+  .icons-sec11{
+    width: 400px;
+    height: 55px;
+    margin: auto;
+    margin-top: 35px;
+
+}
+.icons-sec11 i{
+    font-size: 160%;
+    margin-left: 2px;
+    background-color: rgb(98, 184, 249);
+    color: white;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+.p-sec-content{
+    text-align: center;
+    color: rgb(113, 113, 113);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.icons-sec11 i:hover{
+    background-color: rgb(11, 114, 231);
+}

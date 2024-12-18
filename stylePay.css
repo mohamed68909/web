@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('back.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(0, 33, 71, 0.9); 
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logout {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.payment-info {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.payment-info span {
+    font-weight: bold;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.payment-form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #002147;
+}
+
+.pay-btn {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.payment-methods img {
+    width: 60px;
+    height: 60px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 2px solid #fff; 
+}
